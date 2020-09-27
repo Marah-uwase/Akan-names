@@ -85,3 +85,13 @@ function validateForm() {
         myear.style.border = "2px solid red";
         return false;
     } 
+    else {
+        myear.style.border = "";
+        if (!isNaN(myear.value)) {
+            if (myear.value.length != 4) {
+                document.getElementById("result").innerHTML += "Invalid Year";
+                document.getElementById("result").style.color = 'red';
+                myear.style.border = "2px solid red";
+                return false;
+            }
+        } 
