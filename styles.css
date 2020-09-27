@@ -62,3 +62,9 @@ body {
     .label {
         margin-top: 20px;
     }
+    #story {
+        max-width: 900px;
+        margin: auto;
+        color: wheat;
+        font-size: 22px;
+    }
