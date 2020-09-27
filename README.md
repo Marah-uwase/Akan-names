@@ -13,3 +13,5 @@ As a user of the web application you will be able to:
 |Behaviour 	           |    Input 	                 |       Output          |
 |----------------------------------------------|:-----------------------------------:|-----------------------------:|       
 |Page loads and  a form is  displayed                         |  a user enters form details  and selects from the select radios   and clicks submit                   |     |   Their akan name  is shown up.  
+## Technologies used
+ UBUNTU AND HTML & CSS & JAVASCRIPT WITH VS CODE
