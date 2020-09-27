@@ -162,3 +162,19 @@ function findUserAkanName() {
     var userDetailsObject = getUserDetails();
     mGender = userDetailsObject.myGenderValue;
     userWeekDayIndex = verifyUserBirthday();
+    var dayOfTheWeek = weekDayArray[userWeekDayIndex];
+    // alert(dayOfTheWeek);
+    if (mGender === "male") {
+        var akanArrayObject = akanArray[0];
+        for (var key in akanArrayObject) {
+            if (akanArrayObject.hasOwnProperty(key)) {
+                if (key === dayOfTheWeek) {
+                    // alert(key);
+                    // alert(akanArrayObject[key]);
+                    akanName = akanArrayObject[key];
+                }
+            }
+        }
+        // alert(akanName);
+    } else if (mGender === "female") {
+        var akanArrayObject = akanArray[1];
