@@ -18,3 +18,6 @@ As a user of the web application you will be able to:
  ## Support and contact details
 {For more information contact me on 
 e-mail:maranahuwase12@gmail.com
+### license
+MIT
+copyright (&copy;) 2020, portfolio
