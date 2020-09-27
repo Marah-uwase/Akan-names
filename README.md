@@ -9,3 +9,7 @@ As a user of the web application you will be able to:
 4. Click submit button to allow the application to process your Akan, and see what your akan name would be.
 5. See Your Akan Name.
 6. Click on find again button and enter other details to view akan name.
+## Behaviour Driven Development (BDD)
+|Behaviour 	           |    Input 	                 |       Output          |
+|----------------------------------------------|:-----------------------------------:|-----------------------------:|       
+|Page loads and  a form is  displayed                         |  a user enters form details  and selects from the select radios   and clicks submit                   |     |   Their akan name  is shown up.  
