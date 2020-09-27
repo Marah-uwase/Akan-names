@@ -157,3 +157,8 @@ function verifyUserBirthday() {
         Math.floor(myear / 400) + Math.floor((31 * m) / 12)) % 7;
     return dayOfWeek;
 }
+//finds the akan name that matches the day and gender
+function findUserAkanName() {
+    var userDetailsObject = getUserDetails();
+    mGender = userDetailsObject.myGenderValue;
+    userWeekDayIndex = verifyUserBirthday();
