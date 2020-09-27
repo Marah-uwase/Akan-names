@@ -35,3 +35,18 @@ function validateForm() {
     var formValid = false;
     var i = 0;
     document.getElementById("result").innerHTML = "";
+    if (mdate.value == "" || mdate.value == null) {
+        document.getElementById("result").innerHTML += "Day is Required";
+        document.getElementById("result").style.color = 'red';
+        mdate.style.border = "2px solid red";
+        return false;
+    } else {
+        mdate.style.border = "";
+        if (!isNaN(mdate.value)) {
+            if (mdate.value <= 0 || mdate.value > 31) {
+                document.getElementById("result").innerHTML += "Invalid Day";
+                document.getElementById("result").style.color = 'red';
+                mdate.style.border = "2px solid red";
+                return false;
+            }
+        } 
