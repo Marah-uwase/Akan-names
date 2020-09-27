@@ -27,3 +27,11 @@ function changeBackgroundColor() {
     colorIndex = (colorIndex + 1) % color.length;
 }
 setInterval(changeBackgroundColor, 2000);
+function validateForm() {
+    var gender = document.getElementsByName("gender");
+    var mdate = document.getElementById("mdate");
+    var mmonth = document.getElementById("mmonth");
+    var myear = document.getElementById("myear");
+    var formValid = false;
+    var i = 0;
+    document.getElementById("result").innerHTML = "";
