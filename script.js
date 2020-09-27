@@ -130,3 +130,17 @@ function getUserDetails() {
     }
     return userDetails;
 }
+//run the functions simultaneously
+function aggregateFunctions() {
+    var formValid = validateForm();
+    if (!formValid) {
+        validateForm();
+        return false;
+    } {
+        getUserDetails();
+        verifyUserBirthday();
+        findUserAkanName();
+        printUserAkanName();
+        return false;
+    }
+}
