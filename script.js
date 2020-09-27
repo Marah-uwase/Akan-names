@@ -144,3 +144,16 @@ function aggregateFunctions() {
         return false;
     }
 }
+//verify the day of the users birthday
+function verifyUserBirthday() {
+    var userDetailsObject = getUserDetails();
+    mdate = userDetailsObject.mdate;
+    mmonth = userDetailsObject.mmonth;
+    myear = userDetailsObject.myear;
+    var a = Math.floor((14 - mmonth) / 12);
+    var y = myear - a;
+    var m = mmonth + 12 * a - 2;
+    dayOfWeek = (mdate + y + Math.floor(y / 4) - Math.floor(y / 100) +
+        Math.floor(myear / 400) + Math.floor((31 * m) / 12)) % 7;
+    return dayOfWeek;
+}
