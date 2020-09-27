@@ -18,3 +18,11 @@ body {
 .main {
     text-align: center;
 }
+#welcome-story {
+    color: #41709b;
+    /* color: #6e2c00; */
+    h1 {
+ 
+        color: #6e2c00;
+        /* color: #1c2833; */
+    }
