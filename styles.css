@@ -21,8 +21,12 @@ body {
 #welcome-story {
     color: #41709b;
     /* color: #6e2c00; */
+}
     h1 {
  
         color: #6e2c00;
         /* color: #1c2833; */
+    }
+    input{
+        widows: 100%;
     }
