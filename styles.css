@@ -10,3 +10,7 @@ body {
     /* .introduction{
    text-align: center;
 } */
+#welcome-message {
+    font-family: fantasy;
+    color: #FC8600;
+    color: #000;
