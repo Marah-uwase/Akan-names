@@ -46,3 +46,13 @@ body {
     
         margin-top: 100px;
     }
+    input[type=submit]  {
+        background-color: #FC8600;
+    }
+    
+    input[type=submit]:hover {
+        background-color: #6e2c00;
+        color: #fff;
+        width: 100px;
+        float: right
+    }
