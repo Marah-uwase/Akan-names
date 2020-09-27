@@ -191,4 +191,11 @@ function findUserAkanName() {
     } else {
         alert("Error occured!");
     }
+    var usefulDetails = {
+        akanName: akanName,
+        dayOfTheWeek: dayOfTheWeek,
+        mGender: mGender
+    }
+    return importantDetails;
+}
 
