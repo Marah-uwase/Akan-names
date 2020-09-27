@@ -56,3 +56,6 @@ body {
         width: 100px;
         float: right
     }
+    form, .output{
+        text-align: center
+    }
