@@ -95,3 +95,21 @@ function validateForm() {
                 return false;
             }
         } 
+        else {
+            document.getElementById("result").innerHTML += "Year must be a number";
+            document.getElementById("result").style.color = 'red';
+            myear.style.border = "2px solid red";
+            return false;
+        }
+    }
+    while (!formValid && i < gender.length) {
+        if (gender[i].checked)
+            formValid = true;
+        i++;
+    }
+    if (!formValid) {
+        document.getElementById("the-gender").style.color = 'red';
+        return false;
+    }
+    return formValid;
+}
