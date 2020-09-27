@@ -73,3 +73,6 @@ body {
         height: 2em;
         color: #f08a2d
     }
+    .output {
+        font-family: fantasy;
+    }
