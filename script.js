@@ -72,3 +72,16 @@ function validateForm() {
                 return false;
             }
         }
+        else {
+            document.getElementById("result").innerHTML += "Month must be a number";
+            document.getElementById("result").style.color = 'red';
+            mmonth.style.border = "2px solid red";
+            return false;
+        }
+    }
+    if (myear.value == "" || myear.value == null) {
+        document.getElementById("result").innerHTML += "Year is Required";
+        document.getElementById("result").style.color = 'red';
+        myear.style.border = "2px solid red";
+        return false;
+    } 
